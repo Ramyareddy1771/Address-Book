@@ -1,0 +1,96 @@
+# 📒 AddressBook Management System (C)
+
+A **console-based Address Book Management System** developed in **C**,Address Book Management System is a simple yet effective application that allows users to create, read, update, and delete contact information. It uses file handling to store contacts persistently, ensuring that data is not lost between sessions.
+
+---
+
+## 🚀 Features
+
+* ➕ Create a new contact
+* 🔍 Search for a contact
+* ✏️ Edit existing contact details
+* 📋 List all contacts
+* ❌ Delete a contact
+* 💾 Save contacts persistently using file handling
+* 🚪 Exit safely with data stored
+
+---
+
+## 🗂️ Project Structure
+
+```
+AddressBook-Management-System/
+│
+├── main.c           # Entry point of the application
+├── contact.c        # Contact-related operations
+├── contact.h        # Contact structure & declarations
+├── validate.c       # Input validation logic
+├── validate.h       # Validation function declarations
+├── file.c           # File handling operations
+├── ui.h             # Menu and UI-related declarations
+├── contacts.csv     # Data storage file (runtime)
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🧠 Concepts Used
+
+* Structures
+* Functions & modular programming
+* Pointers
+* Strings
+* Conditional statements
+* Loops
+* File handling (`fopen`, `fread`, `fwrite`, `fprintf`, `fscanf`)
+* Dynamic memory concepts
+
+---
+
+## 🛠️ Build & Run Instructions (Linux)
+
+### Compile
+
+```wsl
+gcc *.c
+```
+
+### Run
+
+```wsl
+./a.out
+```
+
+---
+
+## 📸 Sample Menu
+
+```
+1. Create Contact
+2. Search Contact
+3. Edit Contact
+4. List Contacts
+5. Delete Contact
+6. Save
+7. Exit
+```
+
+---
+
+## 📚 Learning Outcomes
+
+* Hands-on experience with **real-world C programming**
+* Understanding of **data persistence using files**
+* Improved **problem-solving and debugging skills**
+* Strong foundation for **embedded systems development**
+
+---
+
+## 👤 Author
+
+**Ramya**
+
+GitHub: [Ramyareddy1771](https://github.com/Ramyareddy1771)
+
+"""
